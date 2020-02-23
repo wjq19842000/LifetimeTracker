@@ -16,7 +16,5 @@ Pod::Spec.new do |s|
   s.macos.source_files  = "Sources/*.swift"
   s.ios.resources     = "Sources/iOS/**/*.{xib,storyboard}"
   s.resource_bundle = { "LifetimeTracker" => ["Sources/**/*.{strings}"] }
-  s.ios.frameworks  = ["Foundation", "UIKit"]
-  s.macos.frameworks  = ["Foundation"]
   s.swift_version = "5.0"
 end
